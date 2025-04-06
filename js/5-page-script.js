@@ -5,7 +5,7 @@ btn_1.addEventListener("click", () => {
 
 let btn_4 = document.getElementById("4")
 btn_4.addEventListener("click", () => {
-    location.href = "../page/2-page.html"
+    location.href = "../page/4-page.html"
 })
 
 let btn_3 = document.getElementById("3")
