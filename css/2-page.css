@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #f6fff8;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+  
+  
+  header {
+    background-color: #a4c3b2;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head-btn {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 20%;
+    height: 10vh;
+    border: none;
+    background-color: transparent;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  .head-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.book{
+    margin-left: 15.5vw ;
+    margin-right: 15.5vw ;
+    margin-top: 6vh;
+    display: flex;
+
+}
+
+.bookmark-1{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #6b9080 ;
+}
+.bookmark-2{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #a4c3b2 ;
+}
+.bookmark-3{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #a4c3b2 ;
+}
+.bookmark-4{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #a4c3b2 ;
+}
+.bookmark-5{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #a4c3b2 ;
+}
+.bookmark-6{
+    border-top-left-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    margin-top: 3vh;
+    font-size: 1.25vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: #a4c3b2 ;
+}
+
+.leaf{
+    width: 50vw;
+    height: 90vh;
+    background-color: #6b9080;
+    border: 0.3vw solid #312509;
+    border-radius: 1vw;
+}
+
+.text-on-white {
+    color: black;
+    margin: 0 auto 2vh auto;
+    width: 75%;
+    font-size: 2.5rem;
+}
+
+
+.mark-text{
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 1.25vw;
+}
+
+.leaf-text{
+    padding: 1vw;
+    font-size: 1.9vw;
+}
+
+footer {
+    background-color: #a4c3b2;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .head-btn {
+      width: 33.33%;
+      font-size: 14px;
+}
+  
+.info-container {
+      width: 85%;
+}
+  
+.text-on-white {
+      width: 85%;
+      font-size: 2rem;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .head-btn {
+      width: 50%;
+      height: auto;
+      padding: 12px 8px;
+}
+  
+    .info-container {
+      width: 90%;
+    }
+  
+    .info {
+      font-size: 16px;
+    }
+  
+    .text-on-white {
+      width: 90%;
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .head-btn {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    }
+  
+    .info-container {
+      width: 95%;
+      border-radius: 10px;
+    }
+  
+    .info {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .text-on-white {
+      width: 95%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
